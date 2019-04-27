@@ -1,0 +1,20 @@
+{
+  "name": "dot-sankey-ui",
+  "private": true,
+  "version": "0.0.0",
+  "description": "A tool for building sankey diagrams",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richardTowers/dot-sankey-ui.git"
+  },
+  "author": "Richard Towers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/richardTowers/dot-sankey-ui/issues"
+  },
+  "homepage": "https://github.com/richardTowers/dot-sankey-ui#readme"
+}
