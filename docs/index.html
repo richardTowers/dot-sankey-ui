@@ -4,8 +4,32 @@
     <meta charset="utf8">
     <link rel="stylesheet" href="codemirror.css">
     <link rel="stylesheet" href="monokai.css">
+<style>
+html,body,#mirror {
+  width: 100%;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.CodeMirror-fullscreen {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  height: auto;
+  z-index: 9;
+}
+#sankey {
+  position: fixed;
+  z-index: 500;
+  bottom: 0;
+  right: 0;
+  width: 70vw;
+  height: 80vh;
+}
+</style>
   </head>
   <body>
+    <div id="mirror"></div>
+    <svg id="sankey"></svg>
     <script src="bundle.js"></script>
   </body>
 </html>
